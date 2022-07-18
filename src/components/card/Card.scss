@@ -1,0 +1,37 @@
+* {
+  background-color: #121212;
+  color: white;
+  font-family: sans-serif;
+}
+
+body {
+  color: white;
+}
+
+.tracker {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  .card {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    position: relative;
+    border: 2px solid white;
+    .card__person-id {
+      position: absolute;
+      top: 15%;
+      right: 15%;
+    }
+    .card__person-info {
+      margin: 20px;
+      font-size: 1rem;
+    }
+  }
+}
