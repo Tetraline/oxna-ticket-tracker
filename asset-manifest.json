@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/oxna-ticket-tracker/static/css/main.06bbaf25.css",
+    "main.js": "/oxna-ticket-tracker/static/js/main.21565379.js",
+    "static/js/787.0d89de27.chunk.js": "/oxna-ticket-tracker/static/js/787.0d89de27.chunk.js",
+    "static/media/logo.svg": "/oxna-ticket-tracker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/oxna-ticket-tracker/index.html",
+    "main.06bbaf25.css.map": "/oxna-ticket-tracker/static/css/main.06bbaf25.css.map",
+    "main.21565379.js.map": "/oxna-ticket-tracker/static/js/main.21565379.js.map",
+    "787.0d89de27.chunk.js.map": "/oxna-ticket-tracker/static/js/787.0d89de27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06bbaf25.css",
+    "static/js/main.21565379.js"
+  ]
+}
