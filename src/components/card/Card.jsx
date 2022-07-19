@@ -9,8 +9,11 @@ const Card = ({ id, name, role }) => {
   };
 
   const handleDecrement = () => {
-    setTickets(tickets - 1);
+    if (tickets > 0) {
+      setTickets(tickets - 1);
+    }
   };
+
   return (
     <div key={id} className="card">
       <small className="card__person-id">{id}</small>
@@ -18,7 +21,13 @@ const Card = ({ id, name, role }) => {
       <h2 className="card__person-info">{role}</h2>
       <h2 className="card__person-info">
         Tickets:{" "}
-        <span className="card__person-info card__person-info--number">
+        <span
+          className={
+            tickets > 2
+              ? "card__person-info card__person-info--number card__person-info--number-green"
+              : "card__person-info card__person-info--number"
+          }
+        >
           {tickets}
         </span>
       </h2>

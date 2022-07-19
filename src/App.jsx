@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import team from "./data/team";
 import Card from "./components/card/Card";
 
