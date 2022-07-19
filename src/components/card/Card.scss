@@ -26,12 +26,28 @@ body {
     border: 2px solid white;
     .card__person-id {
       position: absolute;
-      top: 15%;
-      right: 15%;
+      bottom: 15%;
+      left: 5%;
+      color: grey;
     }
     .card__person-info {
       margin: 20px;
       font-size: 1rem;
+    }
+    .card__person-info--number {
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+    .card__button {
+      height: 100px;
+      width: 100px;
+      position: relative;
+      bottom: 35%;
+      left: 50%;
+      font-size: 2rem;
+      font-weight: bolder;
+      color: white;
+      border: none;
     }
   }
 }

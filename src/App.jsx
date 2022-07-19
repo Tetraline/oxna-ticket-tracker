@@ -10,12 +10,19 @@ const upperCaseTeam = team.map((person) => {
   };
 });
 
-function App() {
+const teamJSX = upperCaseTeam.map((person) => {
   return (
-    <div className="tracker">
-      <Card team={upperCaseTeam}> </Card>
-    </div>
+    <Card
+      key={person.id}
+      id={person.id}
+      name={person.name}
+      role={person.role}
+    />
   );
+});
+
+function App() {
+  return <div className="tracker">{teamJSX}</div>;
 }
 
 export default App;
