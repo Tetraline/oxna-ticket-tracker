@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/oxna-ticket-tracker/static/css/main.06bbaf25.css",
-    "main.js": "/oxna-ticket-tracker/static/js/main.5322f1b8.js",
+    "main.css": "/oxna-ticket-tracker/static/css/main.21e0c7d2.css",
+    "main.js": "/oxna-ticket-tracker/static/js/main.940b8dc1.js",
     "static/js/787.0d89de27.chunk.js": "/oxna-ticket-tracker/static/js/787.0d89de27.chunk.js",
     "index.html": "/oxna-ticket-tracker/index.html",
-    "main.06bbaf25.css.map": "/oxna-ticket-tracker/static/css/main.06bbaf25.css.map",
-    "main.5322f1b8.js.map": "/oxna-ticket-tracker/static/js/main.5322f1b8.js.map",
+    "main.21e0c7d2.css.map": "/oxna-ticket-tracker/static/css/main.21e0c7d2.css.map",
+    "main.940b8dc1.js.map": "/oxna-ticket-tracker/static/js/main.940b8dc1.js.map",
     "787.0d89de27.chunk.js.map": "/oxna-ticket-tracker/static/js/787.0d89de27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06bbaf25.css",
-    "static/js/main.5322f1b8.js"
+    "static/css/main.21e0c7d2.css",
+    "static/js/main.940b8dc1.js"
   ]
 }
