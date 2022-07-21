@@ -1,11 +1,12 @@
 import "./Card.scss";
 import { useState } from "react";
 
-const Card = ({ id, name, role }) => {
+const Card = ({ id, name, role, confetti }) => {
   const [tickets, setTickets] = useState(0);
 
   const handleIncrement = () => {
     setTickets(tickets + 1);
+    confetti();
   };
 
   const handleDecrement = () => {
